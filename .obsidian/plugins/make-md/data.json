@@ -44,9 +44,9 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//smart-chats",
     "//Tags",
-    "/"
+    "/",
+    "//smart-chats"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
