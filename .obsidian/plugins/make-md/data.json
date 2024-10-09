@@ -45,8 +45,7 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//Tags",
-    "/",
-    "//smart-chats"
+    "/"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
