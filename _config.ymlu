@@ -1,0 +1,9 @@
+title: 호곡의 블로그
+description: 개발 요모조모.
+url: "https://Hoogokok.github.io"
+theme: minima
+include:
+  - "_pages"
+  - "_posts"
+
+permalink: /:categories/:year/:month/:day/:title/

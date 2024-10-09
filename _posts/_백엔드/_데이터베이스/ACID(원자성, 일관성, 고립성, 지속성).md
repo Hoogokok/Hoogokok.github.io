@@ -1,5 +1,9 @@
 #ACID
 
+--- layout: post 
+title: "ACID" 
+date: 2024
+categories: [백엔드, 데이터베이스] ---
 ### 트랜잭션이란?
 
 * SQL 쿼리의 모음
