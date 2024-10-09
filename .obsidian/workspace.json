@@ -168,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -191,9 +191,9 @@
   },
   "active": "5b28fd8914091afb",
   "lastOpenFiles": [
-    "_config.yml",
-    "index.md",
     "Welcome.md",
+    "index.md",
+    "_config.yml",
     "smart-chats",
     "Tags"
   ]
