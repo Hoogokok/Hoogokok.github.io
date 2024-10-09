@@ -1,8 +1,8 @@
-#ACID
+#ACID #데이터베이스
 
 --- layout: post 
 title: "ACID" 
-date: 2024
+date: 2024-10-09
 categories: [백엔드, 데이터베이스] ---
 ### 트랜잭션이란?
 
