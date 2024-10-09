@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "백엔드/데이터베이스/ACID(원자성, 일관성, 고립성, 지속성).md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "백엔드/데이터베이스/ACID(원자성, 일관성, 고립성, 지속성).md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "백엔드/데이터베이스/ACID(원자성, 일관성, 고립성, 지속성).md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "백엔드/데이터베이스/ACID(원자성, 일관성, 고립성, 지속성).md"
+                "file": "index.md"
               }
             }
           },
@@ -188,15 +188,15 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "5b28fd8914091afb",
+  "active": "12b4ddd6fab620bc",
   "lastOpenFiles": [
-    "무제 파일.md",
+    "Welcome.md",
+    "index.md",
     "백엔드/데이터베이스/ACID(원자성, 일관성, 고립성, 지속성).md",
+    "무제 파일.md",
     "백엔드/데이터베이스",
     "백엔드",
-    "index.md",
     "conflict-files-obsidian-git.md",
-    "Welcome.md",
     "_config.yml",
     "smart-chats",
     "Tags"
