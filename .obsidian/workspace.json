@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,10 +190,10 @@
   },
   "active": "5b28fd8914091afb",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "index.md",
-    "Welcome.md",
     "무제 파일.md",
+    "index.md",
+    "conflict-files-obsidian-git.md",
+    "Welcome.md",
     "_config.yml",
     "smart-chats",
     "Tags"
