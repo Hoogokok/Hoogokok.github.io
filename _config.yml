@@ -6,7 +6,7 @@ theme: minima
 collections:
   backend:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:categories/:title/
   frontend:
     output: true
     permalink: /:collection/:name/
