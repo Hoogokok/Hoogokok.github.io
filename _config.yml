@@ -2,6 +2,34 @@ title: 호곡의 블로그
 description: 개발 요모조모.
 url: "https://hoogokok.github.io"
 theme: minima
-include:
-  - "_pages"
-  - "_posts"
+
+collections:
+  backend:
+    output: true
+    permalink: /:collection/:path/
+  frontend:
+    output: true
+    permalink: /:collection/:name/
+  devops:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "backend"
+    values:
+      layout: "post"
+      category: "backend"
+  - scope:
+      path: ""
+      type: "frontend"
+    values:
+      layout: "post"
+      category: "frontend"
+  - scope:
+      path: ""
+      type: "devops"
+    values:
+      layout: "post"
+      category: "devops"

@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
   "obsidian-icon-folder",
@@ -7,5 +6,9 @@
   "smart-connections",
   "execute-code",
   "obsidian-style-settings",
+  "obsius-publish",
+  "obsidian-mkdocs-publisher",
+  "obsidian-git",
+  "dataview",
   "o2"
 ]

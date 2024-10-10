@@ -45,7 +45,10 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//Tags",
-    "/"
+    "/",
+    "//ready",
+    "//archive",
+    "//archive/archive/_백엔드"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
