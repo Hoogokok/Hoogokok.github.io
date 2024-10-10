@@ -5,18 +5,16 @@ title: 홈
 
 개발 요모조모
 
-## 최근 포스트
+{% assign all_posts = site.posts | concat: site.backend | concat: site.frontend %}
 
-{% assign all_posts = site.backend | concat: site.frontend | concat: site.devops %}
-{% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+<h1>최근 게시물</h1>
 
-{% for post in sorted_posts limit:5 %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
-
-## 카테고리
-
-- [백엔드](/backend)
-- [프론트엔드](/frontend)
-
+<ul>
+  {% for post in all_posts limit:5 %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
