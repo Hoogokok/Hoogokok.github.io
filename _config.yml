@@ -20,16 +20,23 @@ defaults:
       type: "backend"
     values:
       layout: "post"
-      category: "backend"
+  - scope:
+      path: "_backend/database"
+      type: "backend"
+    values:
+      category: "database"
+  - scope:
+      path: "_backend/engineering"
+      type: "backend"
+    values:
+      category: "backend_engineering"
   - scope:
       path: ""
       type: "frontend"
     values:
       layout: "post"
-      category: "frontend"
   - scope:
-      path: ""
-      type: "devops"
+      path: "_frontend/frontend_engineering"
+      type: "frontend"
     values:
-      layout: "post"
-      category: "devops"
+      category: "frontend_engineering"
