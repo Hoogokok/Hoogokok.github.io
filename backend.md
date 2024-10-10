@@ -9,10 +9,10 @@ title: 백엔드
 {% for post in database_posts %}
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   <p>{{ post.date | date: "%Y-%m-%d" }}</p>
-  {% if post.tags %}
+  {% if post.tags.size > 0 %}
     <p>
       {% for tag in post.tags %}
-        <span>#{{ tag }} </span>
+        <span>#{{ tag }}</span>
       {% endfor %}
     </p>
   {% endif %}
@@ -24,10 +24,10 @@ title: 백엔드
 {% for post in engineering_posts %}
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   <p>{{ post.date | date: "%Y-%m-%d" }}</p>
-  {% if post.tags %}
+  {% if post.tags.size > 0 %}
     <p>
       {% for tag in post.tags %}
-        <span>#{{ tag }} </span>
+        <span>#{{ tag }}</span>
       {% endfor %}
     </p>
   {% endif %}
