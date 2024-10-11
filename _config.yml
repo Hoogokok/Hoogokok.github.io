@@ -34,7 +34,12 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "_frontend/frontend_engineering"
+      path: "_frontend/frontend_development"
       type: "frontend"
     values:
-      category: "frontend_engineering"
+      category: "frontend_development"
+  - scope:
+      path: "_frontend/frontend_about"
+      type: "frontend"
+    values:
+      category: "frontend_about"
