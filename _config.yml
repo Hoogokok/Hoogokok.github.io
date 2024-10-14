@@ -9,7 +9,10 @@ collections:
     permalink: /:collection/:categories/:title/
   frontend:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:categories/:title/
+  project:
+    output: true
+    permalink: /:collection/:categories/:title/
 
 
 defaults:
@@ -43,3 +46,8 @@ defaults:
       type: "frontend"
     values:
       category: "frontend_about"
+  - scope:
+      path: "_project/project_development"
+      type: "project"
+    values:
+      category: "project_development"
