@@ -11,3 +11,10 @@ category: frontend
 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 <p>{{ post.date | date: "%Y-%m-%d" }}</p>
 {% endfor %}
+
+## Next.js
+{% assign nextjs_posts = site.next.js | where: "category", "next.js" %}
+{% for post in nextjs_posts %}
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<p>{{ post.date | date: "%Y-%m-%d" }}</p>
+{% endfor %}
