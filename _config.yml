@@ -37,10 +37,10 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "_frontend/frontend_development"
+      path: "_frontend/nextjs"
       type: "frontend"
     values:
-      category: "frontend_development"
+      category: "nextjs"
   - scope:
       path: "_frontend/frontend_about"
       type: "frontend"
