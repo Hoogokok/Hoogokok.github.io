@@ -12,7 +12,7 @@ collections:
     permalink: /:collection/:categories/:title/
   project:
     output: true
-    permalink: /:collection/:categories/:title/
+    permalink: /:collection/:name/
 
 defaults:
   - scope:

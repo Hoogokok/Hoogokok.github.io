@@ -1,0 +1,16 @@
+---
+layout: default
+title: 프로젝트
+---
+
+<h1>프로젝트</h1>
+
+<ul>
+  {% for post in site.project %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
