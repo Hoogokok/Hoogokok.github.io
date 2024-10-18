@@ -14,13 +14,13 @@ collections:
     output: true
     permalink: /:collection/:categories/:title/
 
-
 defaults:
   - scope:
       path: ""
       type: "backend"
     values:
       layout: "post"
+      collection: "backend"
   - scope:
       path: "_backend/database"
       type: "backend"
@@ -36,6 +36,7 @@ defaults:
       type: "frontend"
     values:
       layout: "post"
+      collection: "frontend"
   - scope:
       path: "_frontend/nextjs"
       type: "frontend"
@@ -47,7 +48,20 @@ defaults:
     values:
       category: "frontend_about"
   - scope:
-      path: "_project/project_development"
+      path: ""
+      type: "project"
+    values:
+      layout: "post"
+      collection: "project"
+  - scope:
+      path: "_project/project"
       type: "project"
     values:
       category: "project_development"
+
+# 카테고리 페이지 생성을 위한 설정
+page_gen:
+  - data: 'categories'
+    template: 'category'
+    name: 'category'
+    dir: 'categories'
