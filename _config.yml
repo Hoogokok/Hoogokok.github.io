@@ -32,6 +32,11 @@ defaults:
     values:
       category: "backend_engineering"
   - scope:
+      path: "_backend/nest.js"
+      type: "backend"
+    values:
+      category: "nest.js"
+  - scope:
       path: ""
       type: "frontend"
     values:
