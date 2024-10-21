@@ -1,0 +1,32 @@
+---
+layout: default
+title: 독서
+---
+
+<h1>독서</h1>
+
+<h2>책 리뷰</h2>
+<ul>
+  {% for post in site.reading %}
+    {% if post.category == "book_review" %}
+      <li>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>독서 노트</h2>
+<ul>
+  {% for post in site.reading %}
+    {% if post.category == "reading_notes" %}
+      <li>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.date | date: "%Y-%m-%d" }}</p>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

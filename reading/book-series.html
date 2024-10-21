@@ -1,0 +1,22 @@
+---
+layout: default
+title: 책 시리즈
+---
+
+<h1>책 시리즈</h1>
+
+{% assign series = site.reading | group_by: "book_series.name" %}
+
+{% for serie in series %}
+  {% if serie.name != "" %}
+    <h2>{{ serie.name }}</h2>
+    <ul>
+      {% assign posts = serie.items | sort: "book_series.order" %}
+      {% for post in posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

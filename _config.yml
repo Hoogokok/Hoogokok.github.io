@@ -13,6 +13,9 @@ collections:
   project:
     output: true
     permalink: /:collection/:name/
+  reading:
+    output: true
+    permalink: /:collection/:categories/:title/
 
 defaults:
   - scope:
@@ -63,6 +66,22 @@ defaults:
       type: "project"
     values:
       category: "project_development"
+  - scope:
+      path: ""
+      type: "reading"
+    values:
+      layout: "post"
+      collection: "reading"
+  - scope:
+      path: "_reading/book_review"
+      type: "reading"
+    values:
+      category: "book_review"
+  - scope:
+      path: "_reading/reading_notes"
+      type: "reading"
+    values:
+      category: "reading_notes"
 
 # 카테고리 페이지 생성을 위한 설정
 page_gen:
