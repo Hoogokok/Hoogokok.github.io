@@ -45,10 +45,17 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "//Tags",
-    "/",
     "//ready",
     "//archive",
-    "//archive/archive/_백엔드"
+    "//archive/archive/_백엔드",
+    "//_frontend/_frontend/about",
+    "//_frontend/_frontend/next.js",
+    "/",
+    "//_reading",
+    "//_reading/_reading/reading",
+    "//_reading/_reading/reading_notes",
+    "//_reading/_reading/book_review",
+    "//_project"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
